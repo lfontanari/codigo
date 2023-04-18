@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 2</title>
+</head>
+<body>
+    <!-- Header-->
+    <header>
+        <!-- navbar   | zona navegable -->
+        <nav>
+            <ul>
+                <li>
+                   <a href="../index.html"> Inicio </a>
+                </li>
+                <li><a href="pages/servicios.html"> Servicios</a></li>
+
+                <li><a href="pages/trabajos.html#relaterno"> Trabajos </a></li>
+
+                <li><a href="#planes"></a>Planes</li>
+
+                <li><a href="https://www.infobae.com/politica/2023/03/16/exclusivo-los-documentos-en-los-que-tenaris-y-paolo-rocca-acordaron-pagar-usd-95-millones-en-nueva-york-para-cerrar-una-causa-por-coimas/" target="_blank"> 
+                    Prensa </a></li>
+
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <!-- Elementos multimedia-->
+    <!-- imagenes
+    src = donde esta la imagen que queres mostrar en tu sitio 
+    alt = texto alternativo = descripcion ddel elemento multimedia
+         1 - si la ruta de la imagen se rompe o no se carga, se muestra el texto alternativo, para darle
+        a entendeer al usuario de que se trataba ese elemento q no puede ver
+         2 - Posicionamiento de la imagen, cuando el usuario busca por imagenes en el navegador, 
+         segun la coincidencia del texto alt, la posicion en la busqueda
+         3 - Accesibilidad = la gente q usa el sistema de apoyo del celu q le habla = les lee la descripcion del texto alternativo -->
+
+ <img src="images/foto Mia Arriaga.jpeg" alt="Foto de Mia para voley">
+
+ <!-- Mapa | iframe nos da un extracto del codigo html de otro sitio-->
+<!-- voy a la dire q quiero copiar y pongo "compartir" "insertar" y "copiar" , luego vengo al codigo y pego-->
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420508.390080127!2d-58.98122353437498!3d-34.57325399999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb516bac61113%3A0x7acfd71c36ef2c0f!2sNINA&#39;S%20SHOP!5e0!3m2!1ses!2sar!4v1679010309495!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+<!-- videos -->
+<audio src="audios/nikinudes.mp4"></audio>
+<video src="videos/nikinudes.gif"></video>
+
+<!-- Audios | spotify -->
+
+
+
+
+
+
+
+    <!--  Enlaces o Anclas q redirigen , tienen varios tipos
+    absolutos | redireccionan al usuario a una pagina o sitio externo a nuestro proyecto-->
+    
+    <a href="https://www.google.com"> <!-- atributo de la etiqueta | href = hipervinculo de referencia = A donde voy a redirigir al usuario -->
+        Ver más
+    </a>
+    <a href="https://www.google.com" target="_blank"> <!-- atributo de la etiqueta | href = hipervinculo de referencia = A donde voy a redirigir al usuario con el atr target=_blank permite abrirlo en una pestaña nueva -->
+        Ver más en otra pestaña
+    </a>
+
+    <!-- Enlaces o Anclas relativos | redirecciona al usuario a un archivo dentro de mi proyecto-->
+    <a href="pages/trabajos.html">
+        Trabajos
+    </a>
+    <a href="pages/servicios.html">
+        Servicios
+    </a>
+
+    <!-- Enlaces o Anclas internas | redirecciona al usuario a una seccion del mismo archivo -->
+    <!-- en el href se pone un #-->
+    <a href="#planes">
+        Inscribirme
+    </a>
+
+<!-- a la seccion que quiero me redireccione luego le tengo q poner un atributo q es ID | ID = IDENTIFICADOR UNICO -->
+    <section id="planes">
+        <h2>Planes:</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste, ipsa. Dolor deserunt ea debitis, quisquam officiis placeat error, eveniet vero ab ut sunt voluptas corporis, nam sint quis quam possimus.</p>
+    </section>
+<!-- Enlace o Ancla RELATERNO | redirecciona al ususario a otro archivo dentro de mi proyecto y a una seccion 
+especifica de ese otro archivo -->
+<a href="pages/trabajos.html#relaterno">
+  ver relaternos
+</a>
+
+</body>
+</html>
